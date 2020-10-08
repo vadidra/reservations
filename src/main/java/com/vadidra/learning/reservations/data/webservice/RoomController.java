@@ -13,6 +13,7 @@ import org.springframework.beans.factory.annotation.Autowired;
     import java.util.List;
 
 @RestController
+@RequestMapping(value="/api")
 public class RoomController {
     @Autowired
     private RoomRepository repository;
